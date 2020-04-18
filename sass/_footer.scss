@@ -1,0 +1,37 @@
+.footer {
+  &__upper {
+    background-color: #2369b3;
+  }
+  &__menu {
+    &_title {
+      color: #fff;
+      font-size: 0.875rem;
+      font-weight: bold;
+      letter-spacing: 0.0625rem;
+      text-transform: uppercase;
+    }
+    &_link {
+      color: rgba(255, 255, 255, 0.75);
+      display: block;
+      font-size: 0.875rem;
+      letter-spacing: 0.0625rem;
+      transition: color 0.2s;
+      &:hover {
+        color: #fff;
+      }
+    }
+    &_content {
+      color: #fff;
+      font-size: 0.875rem;
+    }
+  }
+  &__lower {
+    background-color: #1d4f87;
+  }
+  &__copyright {
+    color: #fff;
+    font-size: 0.875rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+  }
+}

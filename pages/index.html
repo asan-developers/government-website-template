@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakı şəhər icra hakimiyyəti</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link href="../css/style.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container mx-auto">
+        <!-- ... -->
+        <div class="w-full">
+          <a class="header__logo" href="/pages/" title="Ana Səhifə">
+            <img src="../assets/images/gerb.png" alt="Ana Səhifə" />
+            <div>
+              <h1 class="header__logo_title">AZƏRBAYCAN RESPUBLİKASI</h1>
+              <h2 class="header__logo_subtitle">Bakı Şəhər İcra Hakimiyyəti</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <nav class="mainNav flex bg-teal-500">
+      <div
+        class="container mx-auto flex items-center justify-between flex-wrap"
+      >
+        <div class="block lg:hidden">
+          <button
+            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="w-full block flex-grow lg:flex lg:items-center lg:justify-center lg:w-auto"
+        >
+          <ul class="mainNav__menu">
+            <li class="mainNav__menu_item block lg:inline-block">
+              <a
+                href="#responsive-header"
+                class="mainNav__menu_link block text-white"
+              >
+                ANA SƏHİFƏ
+              </a>
+            </li>
+            <li class="mainNav__menu_item has_dropdown block lg:inline-block">
+              <a
+                href="#responsive-header"
+                class="mainNav__menu_link block text-white"
+              >
+                İCRA HAKİMİYYƏTİ
+              </a>
+              <div class="dropdown">
+                <ul class="dropdown__menu">
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link"
+                      >İH-nın Başçısı</a
+                    >
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link"
+                      >İH Başçısının müavinləri</a
+                    >
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link"
+                      >Aparatın strukturu</a
+                    >
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link"
+                      >BŞİH tabeliyində olan təşkilatlar</a
+                    >
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link">Şura</a>
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link"
+                      >Bələdiyyələr</a
+                    >
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link">Fəaliyyət</a>
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link"
+                      >Vətəndaşların qəbulu</a
+                    >
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link"
+                      >Elektron müraciət</a
+                    >
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" class="block dropdown__menu_link"
+                      >Elektron xidmətlər</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mainNav__menu_item block lg:inline-block">
+              <a
+                href="#responsive-header"
+                class="mainNav__menu_link block text-white"
+              >
+                ŞƏHƏR HAQQINDA
+              </a>
+            </li>
+            <li class="mainNav__menu_item block lg:inline-block">
+              <a
+                href="#responsive-header"
+                class="mainNav__menu_link block text-white"
+              >
+                İNFRASTRUKTUR
+              </a>
+            </li>
+            <li class="mainNav__menu_item block lg:inline-block">
+              <a
+                href="#responsive-header"
+                class="mainNav__menu_link block text-white"
+              >
+                QANUNVERİCİLİK
+              </a>
+            </li>
+            <li class="mainNav__menu_item block lg:inline-block">
+              <a
+                href="#responsive-header"
+                class="mainNav__menu_link block text-white"
+              >
+                XƏBƏRLƏR
+              </a>
+            </li>
+            <li class="mainNav__menu_item block lg:inline-block">
+              <a
+                href="#responsive-header"
+                class="mainNav__menu_link block text-white"
+              >
+                ELEKTRON XİDMƏTLƏR
+              </a>
+            </li>
+            <li class="mainNav__menu_item block lg:inline-block">
+              <a
+                href="#responsive-header"
+                class="mainNav__menu_link block text-white"
+              >
+                ƏLAQƏ
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container mx-auto">
+        <div class="homeSlider">
+          <div class="homeSlider__slide">
+            <a href="#" style="--aspect-ratio: 16/9;">
+              <img
+                class="homeSlider__cover"
+                src="https://nk.gov.az/media/articles/original/4fdfd2c345118b1cbd86c8b3fb0e70a7.jpeg"
+              />
+              <div class="homeSlider__content">
+                <div class="homeSlider__category">
+                  Nazirlər Kabineti yanında Operativ Qərargah
+                </div>
+                <h2 class="homeSlider__title">
+                  Nazirlər Kabinetinin 2019-cu ildə fəaliyyəti haqqında Milli
+                  Məclis qarşısında hesabatı ilə əlaqədar Azərbaycan
+                  Respublikasının Baş Naziri Əli Əsədovun ÇIXIŞI
+                </h2>
+                <div class="homeSlider__date" datetime="22/04/2020">
+                  <i data-feather="clock" width="1rem" height="1rem"></i
+                  ><time datetime="22/04/2020">22 Aprel 2020</time>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="homeSlider__slide">
+            <a href="#" style="--aspect-ratio: 16/9;">
+              <img
+                class="homeSlider__cover"
+                src="https://nk.gov.az/media/articles/original/4fdfd2c345118b1cbd86c8b3fb0e70a7.jpeg"
+              />
+              <div class="homeSlider__content">
+                <div class="homeSlider__category">
+                  Nazirlər Kabineti yanında Operativ Qərargah
+                </div>
+                <h2 class="homeSlider__title">
+                  Nazirlər Kabinetinin 2019-cu ildə fəaliyyəti haqqında Milli
+                  Məclis qarşısında hesabatı ilə əlaqədar Azərbaycan
+                  Respublikasının Baş Naziri Əli Əsədovun ÇIXIŞI
+                </h2>
+                <div class="homeSlider__date" datetime="22/04/2020">
+                  <i data-feather="clock" width="1rem" height="1rem"></i
+                  ><time datetime="22/04/2020">22 Aprel 2020</time>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="w-4/6">
+            <div class="homeNews">
+              <ul class="homeNews__list">
+                <li class="homeNews__list_item mb-8 flex">
+                  <div class="w-1/3 mr-4">
+                    <img
+                      class="w-full homeNews__list_item_cover"
+                      src="http://www.baku-ih.gov.az/userfiles/images/DSC_9014.JPG"
+                      alt="news1"
+                    />
+                  </div>
+                  <div class="w-2/3">
+                    <div class="homeNews__list_item_category">
+                      Mətbuat xidmətinin məlumatı
+                    </div>
+                    <h3 class="homeNews__list_item_title">
+                      <a href="#">
+                        Nazirlər Kabineti yanında operativ qərargahın iclasında
+                        epidemiya (Covid-19) ilə mübarizənin hazırkı vəziyyəti
+                        müzakirə olunub</a
+                      >
+                    </h3>
+                    <div class="homeNews__list_item_date" datetime="22/04/2020">
+                      <i data-feather="clock" width="1rem" height="1rem"></i
+                      ><time datetime="22/04/2020">22 Aprel 2020</time>
+                    </div>
+                  </div>
+                </li>
+                <li class="homeNews__list_item mb-8 flex">
+                  <div class="w-1/3 mr-4">
+                    <img
+                      class="w-full homeNews__list_item_cover"
+                      src="https://nk.gov.az/media/articles/original/597cc0d0addb88b7f823c093d6b5d08e.jpeg"
+                      alt="news1"
+                    />
+                  </div>
+                  <div class="w-2/3">
+                    <div class="homeNews__list_item_category">
+                      Mətbuat xidmətinin məlumatı
+                    </div>
+                    <h3 class="homeNews__list_item_title">
+                      <a href="#">
+                        Nazirlər Kabineti illik hesabatın yeni formasını təqdim
+                        edir</a
+                      >
+                    </h3>
+                    <div class="homeNews__list_item_date" datetime="22/04/2020">
+                      <i data-feather="clock" width="1rem" height="1rem"></i
+                      ><time datetime="22/04/2020">22 Aprel 2020</time>
+                    </div>
+                  </div>
+                </li>
+                <li class="homeNews__list_item mb-8 flex">
+                  <div class="w-1/3 mr-4">
+                    <img
+                      class="w-full homeNews__list_item_cover"
+                      src="https://nk.gov.az/media/articles/original/9fc1c549e26ba7978aea991ed35cc9e9.jpeg"
+                      alt="news1"
+                    />
+                  </div>
+                  <div class="w-2/3">
+                    <div class="homeNews__list_item_category">
+                      Mətbuat xidmətinin məlumatı
+                    </div>
+                    <h3 class="homeNews__list_item_title">
+                      <a href="#">
+                        Nazirlər Kabinetinin 2019-cu ildə fəaliyyəti haqqında
+                        Milli Məclis qarşısında hesabatı ilə əlaqədar Azərbaycan
+                        Respublikasının Baş Naziri Əli Əsədovun ÇIXIŞI</a
+                      >
+                    </h3>
+                    <div class="homeNews__list_item_date" datetime="22/04/2020">
+                      <i data-feather="clock" width="1rem" height="1rem"></i
+                      ><time datetime="22/04/2020">22 Aprel 2020</time>
+                    </div>
+                  </div>
+                </li>
+                <li class="homeNews__list_item mb-8 flex">
+                  <div class="w-1/3 mr-4">
+                    <img
+                      class="w-full homeNews__list_item_cover"
+                      src="http://www.baku-ih.gov.az/userfiles/images/DSC_9014.JPG"
+                      alt="news1"
+                    />
+                  </div>
+                  <div class="w-2/3">
+                    <div class="homeNews__list_item_category">
+                      Mətbuat xidmətinin məlumatı
+                    </div>
+                    <h3 class="homeNews__list_item_title">
+                      <a href="#">
+                        Azərbaycan Respublikası Nazirlər Kabinetinin 115 nömrəli
+                        Qərarına dair - İZAH</a
+                      >
+                    </h3>
+                    <div class="homeNews__list_item_date" datetime="22/04/2020">
+                      <i data-feather="clock" width="1rem" height="1rem"></i
+                      ><time datetime="22/04/2020">22 Aprel 2020</time>
+                    </div>
+                  </div>
+                </li>
+                <li class="homeNews__list_item mb-8 flex">
+                  <div class="w-1/3 mr-4">
+                    <img
+                      class="w-full homeNews__list_item_cover"
+                      src="https://nk.gov.az/media/articles/original/37692ab177dc0c51f54b70bf2ab650b7.jpeg"
+                      alt="news1"
+                    />
+                  </div>
+                  <div class="w-2/3">
+                    <div class="homeNews__list_item_category">
+                      Mətbuat xidmətinin məlumatı
+                    </div>
+                    <h3 class="homeNews__list_item_title">
+                      <a href="#">
+                        Nazirlər Kabineti yanında Operativ Qərargahın iclası
+                        keçirilib</a
+                      >
+                    </h3>
+                    <div class="homeNews__list_item_date" datetime="22/04/2020">
+                      <i data-feather="clock" width="1rem" height="1rem"></i
+                      ><time datetime="22/04/2020">22 Aprel 2020</time>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="homeNews__footer my-8">
+                <a class="homeNews__footer_all" href="#">Bütün xəbərlər</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-2/6">Sidebar</div>
+        </div>
+        <div class="mb-16">
+          <div class="flex mb-8 mt-16">
+            <div class="w-full flex">
+              <h2 class="section-title">Xidmətlər</h2>
+            </div>
+          </div>
+          <div class="services flex">
+            <div class="w-1/4 flex items-start mr-4">
+              <div class="services__icon mr-4">
+                <i data-feather="zap"></i>
+              </div>
+              <div>
+                <h3 class="services__title">Kommunal</h3>
+                <p class="services__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Eget mi proin sed libero enim sed faucibus.
+                </p>
+                <a class="services__more" href="#">Daha çox</a>
+              </div>
+            </div>
+            <div class="w-1/4 flex items-start mr-4">
+              <div class="services__icon mr-4">
+                <i data-feather="phone"></i>
+              </div>
+              <div>
+                <h3 class="services__title">Telekommunikasiya</h3>
+                <p class="services__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Eget mi proin sed libero enim sed faucibus.
+                </p>
+                <a class="services__more" href="#">Daha çox</a>
+              </div>
+            </div>
+            <div class="w-1/4 flex items-start mr-4">
+              <div class="services__icon mr-4">
+                <i data-feather="truck"></i>
+              </div>
+              <div>
+                <h3 class="services__title">Şəhər təmizliyi</h3>
+                <p class="services__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Eget mi proin sed libero enim sed faucibus.
+                </p>
+                <a class="services__more" href="#">Daha çox</a>
+              </div>
+            </div>
+            <div class="w-1/4 flex items-start">
+              <div class="services__icon mr-4">
+                <i data-feather="send"></i>
+              </div>
+              <div>
+                <h3 class="services__title">Poçt xidmətləri</h3>
+                <p class="services__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Eget mi proin sed libero enim sed faucibus.
+                </p>
+                <a class="services__more" href="#">Daha çox</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mb-16">
+          <div class="flex mb-8 mt-16">
+            <div class="w-full flex">
+              <h2 class="section-title">Əlaqə</h2>
+            </div>
+          </div>
+          <div class="contact flex items-center">
+            <div class="w-1/2 mr-8">
+              <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="username"
+                  >
+                    Ad, Soyad, Ata adı
+                  </label>
+                  <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="username"
+                    type="text"
+                  />
+                </div>
+                <div class="mb-6">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="email"
+                  >
+                    Elektron ünvan
+                  </label>
+                  <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                    id="email"
+                    type="email"
+                  />
+                </div>
+                <div class="mb-6">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="message"
+                  >
+                    Məzmun
+                  </label>
+                  <textarea
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                    id="message"
+                  ></textarea>
+                </div>
+                <div class="flex items-center justify-between">
+                  <button
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="button"
+                  >
+                    Göndər
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="w-1/2">
+              <img
+                class="w-full"
+                src="https://i0.wp.com/www.cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1"
+                alt="map_placeholder"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__upper py-8">
+        <div class="container mx-auto">
+          <div class="flex">
+            <div class="w-1/4">
+              <h3 class="footer__menu_title mb-4">İcra Hakimiyyəti</h3>
+              <ul class="footer__menu">
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">İH-nın Başçısı</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link"
+                    >İH Başçısının müavinləri</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Aparatın strukturu</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link"
+                    >BŞİH tabeliyində olan təşkilatlar</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Şura</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Bələdiyyələr</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Fəaliyyət</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-1/4">
+              <h3 class="footer__menu_title mb-4">Qanunvericilik</h3>
+              <ul class="footer__menu">
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Qanunlar</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link"
+                    >Fərman və Sərəncamlar</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link"
+                    >Normativ hüquq aktları</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="w-1/4">
+              <h3 class="footer__menu_title mb-4">Şəhər haqqında</h3>
+              <ul class="footer__menu">
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Tarixi</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Əhalisi</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Coğrafi mövqeyi</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">İqtisadiyyat</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Təhsil</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Mədəniyyət</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">Səhiyyə</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="footer__menu_link">İdman</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-1/4">
+              <h3 class="footer__menu_title mb-4">Əlaqə</h3>
+              <ul class="footer__menu">
+                <li class="mb-2">
+                  <p class="footer__menu_content flex items-center">
+                    <i width="1rem" height="1rem" data-feather="map"></i>
+                    <span class="ml-2">H. Əliyev k. 35</span>
+                  </p>
+                </li>
+                <li class="mb-2">
+                  <p class="footer__menu_content flex items-center">
+                    <i width="1rem" height="1rem" data-feather="mail"></i>
+                    <span class="ml-2">contact@baku-ih.gov.az</span>
+                  </p>
+                </li>
+                <li class="mb-2">
+                  <p class="footer__menu_content flex items-center">
+                    <i width="1rem" height="1rem" data-feather="headphones"></i>
+                    <span class="ml-2">(+12) 444 44 44</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__lower h-12 flex items-center">
+        <div class="container mx-auto flex items-center justify-center">
+          <p class="footer__copyright">
+            &copy; Bakı Şəhər İcra Hakimiyyəti 2020
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

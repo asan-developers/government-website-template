@@ -1,0 +1,25 @@
+.header {
+  background-color: #1d4f87;
+  padding: 0 1rem;
+  &__logo {
+    align-items: center;
+    color: #fff;
+    display: inline-flex;
+    font-weight: normal;
+    letter-spacing: 0.0625rem;
+    line-height: 1;
+    margin: 1rem 0;
+    img {
+      height: 4rem;
+      margin: {
+        right: 0.5rem;
+      }
+    }
+    &_title {
+      font-size: 1.5rem;
+    }
+    &_subtitle {
+      font-size: 1.25rem;
+    }
+  }
+}

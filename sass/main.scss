@@ -1,0 +1,66 @@
+@import "base";
+@import "header";
+@import "mainNav";
+@import "homeSlider";
+@import "homeNews";
+@import "services";
+@import "footer";
+
+[style*="--aspect-ratio"] {
+  display: block;
+  & > :first-child {
+    width: 100%;
+  }
+  & > img {
+    height: auto;
+  }
+}
+
+@supports (--custom: property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+
+.section-title {
+  color: #222;
+  font-size: 0.875rem;
+  letter-spacing: 0.0625rem;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  &:before {
+    background-color: red;
+    content: "";
+    height: 0.125rem;
+    left: 100%;
+    margin-left: 0.5rem;
+    position: absolute;
+    top: 50%;
+    width: 2rem;
+  }
+  &:after {
+    background-color: red;
+    content: "";
+    height: 0.125rem;
+    right: 100%;
+    margin-right: 0.5rem;
+    position: absolute;
+    top: 50%;
+    width: 2rem;
+  }
+}

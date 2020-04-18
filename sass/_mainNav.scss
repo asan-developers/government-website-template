@@ -1,0 +1,76 @@
+.mainNav {
+  background-color: #2369b3;
+  letter-spacing: 0.0625rem;
+  padding: 0 1rem;
+  &__menu {
+    &:hover {
+      .mainNav__menu_link {
+        opacity: 0.5;
+      }
+    }
+    &_item {
+      &:focus,
+      &:active,
+      &:hover {
+        .mainNav__menu_link {
+          opacity: 1 !important;
+        }
+      }
+      &.has_dropdown {
+        position: relative;
+        &:hover {
+          > .dropdown {
+            display: block;
+          }
+        }
+        .dropdown {
+          background-color: #fff;
+          border-radius: 0.25rem;
+          box-shadow: 0 0.5rem 1rem hsla(0, 0%, 0%, 0.1);
+          display: none;
+          font-size: 0.875rem;
+          left: -0.5rem;
+          min-width: 16rem;
+          position: absolute;
+          top: 100%;
+          z-index: 9999;
+          &:hover {
+            .dropdown__menu_link {
+              opacity: 0.5;
+            }
+          }
+          &__menu {
+            margin: 0.5rem 0;
+            &_link {
+              padding: 0.5rem 1rem;
+              transition: opacity 0.3s;
+            }
+            &_item {
+              &:focus,
+              &:active,
+              &:hover {
+                .dropdown__menu_link {
+                  opacity: 1 !important;
+                }
+              }
+            }
+          }
+          &:before {
+            border-color: transparent transparent #eee;
+            border-style: solid;
+            border-width: 0 0.5rem 0.5rem;
+            bottom: 100%;
+            content: "";
+            left: 1.25rem;
+            position: absolute;
+          }
+        }
+      }
+    }
+    &_link {
+      font-size: 0.875rem;
+      padding: 1rem 0.5rem;
+      transition: opacity 0.3s;
+    }
+  }
+}

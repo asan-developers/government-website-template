@@ -1,0 +1,29 @@
+.services {
+  &__icon {
+    background-color: #2369b3;
+    border-radius: 3rem;
+    color: #fff;
+    padding: 1rem;
+  }
+  &__title {
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+  }
+  &__desc {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+  }
+  &__more {
+    border-bottom: 0.0625rem solid #222;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    &:hover {
+      border-color: #2369b3;
+      color: #2369b3;
+    }
+  }
+}
