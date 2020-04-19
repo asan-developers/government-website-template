@@ -19,6 +19,22 @@
       font-size: 1.5rem; }
     .header__logo_subtitle {
       font-size: 1.25rem; }
+  .header .skip {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden; }
+  .header a.skip:active,
+  .header a.skip:focus,
+  .header a.skip:hover {
+    left: 20px;
+    top: 30px;
+    width: auto;
+    height: auto;
+    overflow: visible; }
 
 .mainNav {
   background-color: #2369b3;
