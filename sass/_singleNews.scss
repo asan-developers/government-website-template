@@ -4,6 +4,7 @@
       font-size: 1.5rem;
       font-weight: bold;
       letter-spacing: 0.0625rem;
+      font-family: "Merriweather", serif;
     }
   }
   &__category {
@@ -29,6 +30,7 @@
     display: flex;
     font-size: 0.875rem;
     letter-spacing: 0.0625rem;
+    margin-bottom: 2rem;
     > time {
       margin-left: 0.5rem;
     }

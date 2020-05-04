@@ -30,9 +30,9 @@ body {
   .header a.skip:active,
   .header a.skip:focus,
   .header a.skip:hover {
-    left: 20px;
+    left: 25px;
     top: 30px;
-    width: auto;
+    width: 120px;
     height: auto;
     overflow: visible; }
 
@@ -269,7 +269,8 @@ body {
 .singleNews__title > h2 {
   font-size: 1.5rem;
   font-weight: bold;
-  letter-spacing: 0.0625rem; }
+  letter-spacing: 0.0625rem;
+  font-family: "Merriweather", serif; }
 
 .singleNews__category {
   color: #222;
@@ -292,7 +293,8 @@ body {
   color: #222;
   display: flex;
   font-size: 0.875rem;
-  letter-spacing: 0.0625rem; }
+  letter-spacing: 0.0625rem;
+  margin-bottom: 2rem; }
   .singleNews__date > time {
     margin-left: 0.5rem; }
 
