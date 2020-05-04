@@ -21,10 +21,10 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- Header start -->
     <header class="header">
       <a href="#main-content" class="skip text-white">Əsas məzmuna keçid</a>
       <div class="container mx-auto">
-        <!-- ... -->
         <div class="w-full">
           <a class="header__logo" href="/" title="Ana Səhifə">
             <img src="assets/images/gerb.png" alt="Ana Səhifə" />
@@ -36,24 +36,12 @@
         </div>
       </div>
     </header>
+    <!-- Header end -->
+    <!-- Main navigation start -->
     <nav class="mainNav flex bg-teal-500">
       <div
         class="container mx-auto flex items-center justify-between flex-wrap"
       >
-        <div class="block lg:hidden">
-          <button
-            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-          >
-            <svg
-              class="fill-current h-3 w-3"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
         <div
           class="w-full block flex-grow lg:flex lg:items-center lg:justify-center lg:w-auto"
         >
@@ -61,6 +49,7 @@
             <li class="mainNav__menu_item block lg:inline-block">
               <a
                 href="#responsive-header"
+                title="Ana səhifə"
                 class="mainNav__menu_link block text-white"
               >
                 ANA SƏHİFƏ
@@ -69,6 +58,7 @@
             <li class="mainNav__menu_item has_dropdown block lg:inline-block">
               <a
                 href="#responsive-header"
+                title="İcra Hakimiyyəti"
                 class="mainNav__menu_link block text-white"
               >
                 İCRA HAKİMİYYƏTİ
@@ -76,50 +66,89 @@
               <div class="dropdown">
                 <ul class="dropdown__menu">
                   <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link"
-                      >İH-nın Başçısı</a
+                    <a
+                      href="#"
+                      title="İH-nın Başçısı"
+                      class="block dropdown__menu_link"
+                    >
+                      İH-nın Başçısı
+                    </a>
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a
+                      href="#"
+                      title="İH Başçısının müavinləri"
+                      class="block dropdown__menu_link"
+                    >
+                      İH Başçısının müavinləri
+                    </a>
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a
+                      href="#"
+                      title="Aparatın strukturu"
+                      class="block dropdown__menu_link"
+                    >
+                      Aparatın strukturu
+                    </a>
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a
+                      href="#"
+                      title="BŞİH tabeliyində olan təşkilatlar"
+                      class="block dropdown__menu_link"
+                    >
+                      BŞİH tabeliyində olan təşkilatlar
+                    </a>
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a href="#" title="Şura" class="block dropdown__menu_link"
+                      >Şura</a
                     >
                   </li>
                   <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link"
-                      >İH Başçısının müavinləri</a
+                    <a
+                      href="#"
+                      title="Bələdiyyələr"
+                      class="block dropdown__menu_link"
+                    >
+                      Bələdiyyələr
+                    </a>
+                  </li>
+                  <li class="dropdown__menu_item">
+                    <a
+                      href="#"
+                      title="Fəaliyyət"
+                      class="block dropdown__menu_link"
+                      >Fəaliyyət</a
                     >
                   </li>
                   <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link"
-                      >Aparatın strukturu</a
+                    <a
+                      href="#"
+                      title="Vətəndaşların qəbulu"
+                      class="block dropdown__menu_link"
                     >
+                      Vətəndaşların qəbulu
+                    </a>
                   </li>
                   <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link"
-                      >BŞİH tabeliyində olan təşkilatlar</a
+                    <a
+                      href="#"
+                      title="Elektron müraciət"
+                      class="block dropdown__menu_link"
                     >
+                      Elektron müraciət
+                    </a>
                   </li>
                   <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link">Şura</a>
-                  </li>
-                  <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link"
-                      >Bələdiyyələr</a
+                    <a
+                      href="#"
+                      title="Elektron xidmətlər"
+                      class="block dropdown__menu_link"
                     >
-                  </li>
-                  <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link">Fəaliyyət</a>
-                  </li>
-                  <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link"
-                      >Vətəndaşların qəbulu</a
-                    >
-                  </li>
-                  <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link"
-                      >Elektron müraciət</a
-                    >
-                  </li>
-                  <li class="dropdown__menu_item">
-                    <a href="#" class="block dropdown__menu_link"
-                      >Elektron xidmətlər</a
-                    >
+                      Elektron xidmətlər
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -127,6 +156,7 @@
             <li class="mainNav__menu_item block lg:inline-block">
               <a
                 href="#responsive-header"
+                title="Şəhər haqqında"
                 class="mainNav__menu_link block text-white"
               >
                 ŞƏHƏR HAQQINDA
@@ -135,6 +165,7 @@
             <li class="mainNav__menu_item block lg:inline-block">
               <a
                 href="#responsive-header"
+                title="İnfrastruktur"
                 class="mainNav__menu_link block text-white"
               >
                 İNFRASTRUKTUR
@@ -143,6 +174,7 @@
             <li class="mainNav__menu_item block lg:inline-block">
               <a
                 href="#responsive-header"
+                title="Qanunvericilik"
                 class="mainNav__menu_link block text-white"
               >
                 QANUNVERİCİLİK
@@ -151,6 +183,7 @@
             <li class="mainNav__menu_item block lg:inline-block">
               <a
                 href="#responsive-header"
+                title="Xəbərlər"
                 class="mainNav__menu_link block text-white"
               >
                 XƏBƏRLƏR
@@ -159,6 +192,7 @@
             <li class="mainNav__menu_item block lg:inline-block">
               <a
                 href="#responsive-header"
+                title="Elektron xidmətlər"
                 class="mainNav__menu_link block text-white"
               >
                 ELEKTRON XİDMƏTLƏR
@@ -167,6 +201,7 @@
             <li class="mainNav__menu_item block lg:inline-block">
               <a
                 href="#responsive-header"
+                title="Əlaqə"
                 class="mainNav__menu_link block text-white"
               >
                 ƏLAQƏ
@@ -176,6 +211,8 @@
         </div>
       </div>
     </nav>
+    <!-- Main navigation end -->
+    <!-- Main content start -->
     <main id="main-content">
       <div class="container mx-auto">
         <div class="homeSlider">
@@ -184,6 +221,7 @@
               <img
                 class="homeSlider__cover"
                 src="https://nk.gov.az/media/articles/original/4fdfd2c345118b1cbd86c8b3fb0e70a7.jpeg"
+                alt="Nazirlər Kabineti yanında Operativ Qərargahdan şəkil"
               />
               <div class="homeSlider__content">
                 <div class="homeSlider__category">
@@ -206,6 +244,7 @@
               <img
                 class="homeSlider__cover"
                 src="https://nk.gov.az/media/articles/original/4fdfd2c345118b1cbd86c8b3fb0e70a7.jpeg"
+                alt="Nazirlər Kabineti yanında Operativ Qərargahdan şəkil"
               />
               <div class="homeSlider__content">
                 <div class="homeSlider__category">
@@ -357,7 +396,7 @@
             </div>
           </div>
           <div class="w-2/6">
-            <aside class="sidebar w-full">
+            <div class="sidebar w-full">
               <ul class="sidebar__external mb-16">
                 <li class="sidebar__external_item mb-8">
                   <a
@@ -368,6 +407,7 @@
                     <img
                       class="w-full"
                       src="https://nk.gov.az/media/images/usefull1.png"
+                      alt="Heydər Əliyev"
                     />
                   </a>
                 </li>
@@ -380,6 +420,7 @@
                     <img
                       class="w-full"
                       src="https://nk.gov.az/media/images/usefull2.png"
+                      alt="İlham Əliyev"
                     />
                   </a>
                 </li>
@@ -392,6 +433,7 @@
                     <img
                       class="w-full"
                       src="https://nk.gov.az/media/images/usefull3.png"
+                      title="Mehriban Əliyeva"
                     />
                   </a>
                 </li>
@@ -399,12 +441,13 @@
               <div class="flex mb-8">
                 <a
                   href="#"
+                  title="Müraciət et"
                   class="w-full bg-blue-500 hover:bg-blue-400 text-white text-2xl font-bold tracking-wider uppercase py-4 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded text-center"
                 >
                   Müraciət Et
                 </a>
               </div>
-            </aside>
+            </div>
           </div>
         </div>
         <div class="mb-16">
@@ -416,7 +459,7 @@
           <div class="services flex">
             <div class="w-1/4 flex items-start mr-4">
               <div class="services__icon mr-4">
-                <i data-feather="zap"></i>
+                <i aria-hidden="true" data-feather="zap"></i>
               </div>
               <div>
                 <h3 class="services__title">Kommunal</h3>
@@ -425,12 +468,12 @@
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Eget mi proin sed libero enim sed faucibus.
                 </p>
-                <a class="services__more" href="#">Daha çox</a>
+                <a class="services__more" title="Daha çox" href="#">Daha çox</a>
               </div>
             </div>
             <div class="w-1/4 flex items-start mr-4">
               <div class="services__icon mr-4">
-                <i data-feather="phone"></i>
+                <i aria-hidden="true" data-feather="phone"></i>
               </div>
               <div>
                 <h3 class="services__title">Telekommunikasiya</h3>
@@ -439,12 +482,12 @@
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Eget mi proin sed libero enim sed faucibus.
                 </p>
-                <a class="services__more" href="#">Daha çox</a>
+                <a class="services__more" title="Daha çox" href="#">Daha çox</a>
               </div>
             </div>
             <div class="w-1/4 flex items-start mr-4">
               <div class="services__icon mr-4">
-                <i data-feather="truck"></i>
+                <i aria-hidden="true" data-feather="truck"></i>
               </div>
               <div>
                 <h3 class="services__title">Şəhər təmizliyi</h3>
@@ -453,12 +496,12 @@
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Eget mi proin sed libero enim sed faucibus.
                 </p>
-                <a class="services__more" href="#">Daha çox</a>
+                <a class="services__more" title="Daha çox" href="#">Daha çox</a>
               </div>
             </div>
             <div class="w-1/4 flex items-start">
               <div class="services__icon mr-4">
-                <i data-feather="send"></i>
+                <i aria-hidden="true" data-feather="send"></i>
               </div>
               <div>
                 <h3 class="services__title">Poçt xidmətləri</h3>
@@ -467,7 +510,7 @@
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Eget mi proin sed libero enim sed faucibus.
                 </p>
-                <a class="services__more" href="#">Daha çox</a>
+                <a class="services__more" title="Daha çox" href="#">Daha çox</a>
               </div>
             </div>
           </div>
@@ -492,6 +535,7 @@
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="username"
                     type="text"
+                    placeholder="Adınızı daxil edin"
                   />
                 </div>
                 <div class="mb-6">
@@ -505,6 +549,7 @@
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
                     id="email"
                     type="email"
+                    placeholder="E-poçt ünvanınız daxil edin"
                   />
                 </div>
                 <div class="mb-6">
@@ -517,10 +562,12 @@
                   <textarea
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
                     id="message"
-                  ></textarea>
+                  >
+                  </textarea>
                 </div>
                 <div class="flex items-center justify-between">
                   <button
+                    title="Göndər"
                     class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                     type="button"
                   >
@@ -540,6 +587,8 @@
         </div>
       </div>
     </main>
+    <!-- Main content end -->
+    <!-- Footer start -->
     <footer class="footer">
       <div class="footer__upper py-8">
         <div class="container mx-auto">
@@ -551,9 +600,9 @@
                   <a href="#" class="footer__menu_link">İH-nın Başçısı</a>
                 </li>
                 <li class="mb-2">
-                  <a href="#" class="footer__menu_link"
-                    >İH Başçısının müavinləri</a
-                  >
+                  <a href="#" class="footer__menu_link">
+                    İH Başçısının müavinləri
+                  </a>
                 </li>
                 <li class="mb-2">
                   <a href="#" class="footer__menu_link">Aparatın strukturu</a>
@@ -655,7 +704,8 @@
         </div>
       </div>
     </footer>
-    <!-- Scripts -->
+    <!-- Footer end -->
+    <!-- Scripts start -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
@@ -667,5 +717,6 @@
     ></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="js/main.js"></script>
+    <!-- Scripts end -->
   </body>
 </html>
