@@ -19,6 +19,8 @@ body {
       font-size: 1.5rem; }
     .header__logo_subtitle {
       font-size: 1.25rem; }
+  .header .burger-btn {
+    margin-right: 1rem; }
   .header .skip {
     position: absolute;
     top: -1000px;
