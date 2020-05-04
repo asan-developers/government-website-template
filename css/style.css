@@ -1,5 +1,5 @@
-* {
-  font-family: "Roboto", sans-serif !important; }
+body {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .header {
   background-color: #1d4f87;
@@ -121,6 +121,7 @@
   .homeSlider__title {
     color: #fff;
     font-size: 1.5rem;
+    font-family: "Merriweather", serif;
     letter-spacing: 1px;
     margin: 0.5rem 0; }
   .homeSlider__date {
@@ -176,10 +177,11 @@
 
 .homeNews__list_item_title {
   color: #222;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   margin: 0.5rem 0; }
   .homeNews__list_item_title > a {
+    font-family: "Merriweather", serif;
     transition: color 0.2s; }
     .homeNews__list_item_title > a:hover {
       color: #1d4f87; }
