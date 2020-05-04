@@ -118,7 +118,7 @@ body {
       position: absolute;
       top: 50%;
       width: 2rem; }
-  .homeSlider__title {
+  .homeSlider__title > a {
     color: #fff;
     font-size: 1.5rem;
     font-family: "Merriweather", serif;
