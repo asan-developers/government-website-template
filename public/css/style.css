@@ -9,11 +9,10 @@ body {
     color: #fff;
     display: inline-flex;
     font-weight: normal;
-    letter-spacing: 0.0625rem;
     line-height: 1;
     margin: 1rem 0; }
     .header__logo img {
-      height: 4rem;
+      height: 3rem;
       margin-right: 0.5rem; }
     .header__logo_title {
       font-size: 1.5rem; }
